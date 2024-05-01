@@ -191,12 +191,14 @@ module.exports = {
         },
         ethermint:{
             url: "http://127.0.0.1:8545",
-            chainId: 102,
-            accounts: {
-                mnemonic: process.env.GENESIS_MNEMONIC,
-                initialIndex: 0,
-                count: 25,
-            },
+            chainId: 9000,
+            // accounts: {
+            //     mnemonic: "test test test test test test test test test test test junk",
+            //     path: "m/44'/60'/0'/0",
+            //     initialIndex: 0,
+            //     count: 25,
+            // },
+            accounts:["6CCBE2EAD067C61FB436793667A48B6AD1766E01A1190F25EB65D1699EA4BB68"]
         },
         b2node: {
             url: "http://127.0.0.1:8555",
@@ -251,7 +253,7 @@ module.exports = {
         b2PublicTestRollupMyAccount: {
             url: 'https://trusted-sequencer-rpc.bsquared.network',
             chainId: 1102,
-            accounts:[process.env.PRIVATE_ON_B2]
+            accounts:["6CCBE2EAD067C61FB436793667A48B6AD1766E01A1190F25EB65D1699EA4BB68"]
         },
         b2PublicTestRollup: {
             // url: 'https://roles-rpc.bsquared.network',
