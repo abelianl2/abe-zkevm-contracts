@@ -198,7 +198,7 @@ module.exports = {
             //     initialIndex: 0,
             //     count: 25,
             // },
-            accounts:["DFDD144EC03448E1B2AFAD3DC980209326D3619DC7859DBC041C4666613FEA4C"]
+            accounts:["EF4A41190C20B624A4C0F0D3D38C5E259D52E4CF1EBABE2B80B160F9B86AA0EE"]
         },
         b2node: {
             url: "http://127.0.0.1:8555",
