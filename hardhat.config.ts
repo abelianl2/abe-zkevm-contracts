@@ -235,7 +235,7 @@ const config: HardhatUserConfig = {
             },
         },
         zkevmDevnet: {
-            url: "http://123:123:123:123:123",
+            url: "http://124.243.137.251:8123",
             accounts: {
                 mnemonic: process.env.MNEMONIC || DEFAULT_MNEMONIC,
                 path: "m/44'/60'/0'/0",

@@ -61,7 +61,7 @@ async function main() {
     } else {
         [deployer] = await ethers.getSigners();
     }
-
+    
     // Load initialZkEVMDeployerOwner
     const {initialZkEVMDeployerOwner} = deployParameters;
 
@@ -73,7 +73,7 @@ async function main() {
     const [zkEVMDeployerContract, keylessDeployer] = await deployPolygonZkEVMDeployer(
         initialZkEVMDeployerOwner,
         deployer as HardhatEthersSigner,
-        1113
+        9000
     );
 
     if (keylessDeployer === ethers.ZeroAddress) {
